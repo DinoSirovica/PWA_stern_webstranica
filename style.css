@@ -1,0 +1,861 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+    font-family: 'Zen Antique', serif;
+}
+
+pre{
+    font-family: 'Zen Antique', serif;
+    white-space: pre-line;
+}
+
+
+/*header start*/
+header {
+    padding-top: 10px;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.container {
+    width: 60%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.content{
+    min-width:100%;
+    display: flex;
+    align-items: flex-end;
+}
+.logo {
+    width: 30%;
+    height: 100px;
+    background: url(img/preuzmi.svg)
+    no-repeat center / contain;
+}
+.right {
+    width: 70%;
+    min-height: 100px;
+    margin-left:-20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 14px;
+  
+}
+.right li {
+    display: inline-flex;
+    margin-right: 15px;
+    list-style-type: none ;
+}
+.right a:hover {
+    color:#d61010;
+}
+/*header end*/
+
+/*footer start*/
+footer{
+    padding-top: 10px;
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+/*footer end*/
+
+
+/*body start*/
+.main{
+    width:60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 0px auto;
+}
+
+.sect{
+    display: flex;
+    flex-direction: row;
+    flex-direction:column;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+.sectionTitle{
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width:100%;
+}
+.sectionTitle h2>a:hover{
+    color:#941414;
+    font-size: 24.5px;
+}
+
+.story{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 0px;
+    max-width: 1000px;
+}
+.art{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    padding: 10px 20px 10px 0px;
+    margin-top:20px;
+}
+.articleImg{
+    width: 100%;
+    
+}
+
+.artTitle
+    {
+        color: red;
+        font-size: 12px;
+        padding: 6px 0px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    .artText{
+        font-size: 16px;
+        font-weight: bolder;
+        max-width: 100%;
+        font-family: 'Zen Antique', serif;
+        }
+
+
+/*body end*/
+
+/*footer start*/
+footer{
+    padding-top: 10px;
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+/*footer end*/
+
+/*links start*/
+.menu{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.artLink{
+    text-decoration: none;
+    font-weight: bold;
+}
+.artLink p{
+    color:black;
+}
+/*links end*/
+
+/*----------Clanak.css-------------*/
+
+.articalMain{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.articalSection{
+    width:60%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: stretch;
+}
+
+.description{
+    font-size: 16px;
+    padding: 10px 0 15px 0;
+}
+
+.articleText{
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+.articleImg{
+    width:100%;
+    max-width: 1500px;
+}
+
+.artTitle{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.artTitle h1{
+    font-size: 22px;
+    width:80%;
+    color: black;
+}
+
+.artTitle h3{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    font-size: 10px;
+    color: lightgray;
+    text-transform: capitalize;
+    width:15%
+}
+
+
+/*----------------------unos.php-------------------------------*/
+.formDiv{
+    margin: 10px 0;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formDiv form{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formDiv input[type=text], textarea {
+    border: 1px #77777752 solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.formDiv input[type=text] {
+    min-height: 20px;
+   width:100%;
+  
+}
+
+.borderBott{
+    display: block;
+    width:100%;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #c21717;
+}
+.imageDiv{
+    width:100%;
+}
+.formPositionDiv{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.titleDiv{
+    width:100%;
+    padding-top:10px;   
+}
+
+.formField{
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+
+.categoryDiv select{
+    width: 100%;
+    min-height: 20px;
+    border: none;
+    background-color: rgba(119, 119, 119, 0.322);
+}
+.categoryDiv{
+    width: 100%;
+}
+
+.containerCheck {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    cursor: pointer;
+}  
+ 
+  .containerCheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkboxDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .checkmark {
+    position: relative;
+    top: 4px;
+    left: 15px;
+    height: 15px;
+    width: 15px;
+    background-color: #77777752;
+    border: 1px #d3d3d3 solid;
+    border-radius: 4px;
+  }
+  
+  .containerCheck:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .containerCheck input:checked ~ .checkmark {
+    background-color: #ffbebe7e;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .containerCheck input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .containerCheck .checkmark:after {
+    left: 3px;
+    bottom: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(0, 180, 0);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+.buttonDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    border-top: 1px solid #c21717;
+    padding: 15px;
+}
+
+
+.buttonDiv button{
+    width: 30%;
+    min-height: 30px;
+    background-color: #c21717;
+    border: #e65757;
+    color:#ffffff;
+    border-radius: 5px;
+}
+.buttonDiv button:hover{
+    background-color: #941414;
+}
+
+.errorPoruka{
+    color:#c21717;
+    font-size: 12px;
+    font-style: italic;
+}
+
+/*--------------------kategorija.php----------------------------*/
+.redLine{
+    
+    border-bottom: #941414 1px solid;
+    padding-bottom: 10px;
+    width: 87%;
+}
+
+
+/*--------------------administracija.php----------------------------*/
+.admin{
+    width:99%;
+    display: flex;
+    flex-direction:column;
+    margin: 0px auto;
+    padding-top: 10px ;
+}
+.formClass{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    margin-top: 15px;
+    border-top: 1px #99999985 solid;
+}
+.articleDiv{
+    width:100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border-bottom: 1px #99999985 solid;
+}
+.imageGroup{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.imgAdmin{
+    width: 140px;
+    height: 80px;
+}
+.imgDiv{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center; 
+}
+.restGroup{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.buutonDiv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.buttonDivAdmin button{
+    margin: 10px 0px;
+    display:block;
+    width: 100%;
+    min-height: 30px;
+    background-color: #c21717;
+    border: #e65757;
+    color:#ffffff;
+    border-radius: 5px;
+}
+.buttonDivAdmin button:hover{
+    background-color: #941414;
+}
+.titleBox{
+    height: 35px;
+}
+.containerCheck2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    cursor: pointer;
+}  
+ 
+  .containerCheck2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkboxDiv2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .checkmark2 {
+    position: relative;
+    top: 4px;
+    left: 0px;
+    height: 15px;
+    width: 15px;
+    background-color: #77777752;
+    border: 1px #d3d3d3 solid;
+    border-radius: 4px;
+  }
+  
+  .containerCheck2:hover input ~ .checkmark2 {
+    background-color: #ccc;
+  }
+  
+  .containerCheck2 input:checked ~ .checkmark2 {
+    background-color: #ffbebe7e;
+  }
+  
+  .checkmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .containerCheck2 input:checked ~ .checkmark2:after {
+    display: block;
+  }
+  
+  .containerCheck2 .checkmark2::after {
+    left: 3px;
+    bottom: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(0, 180, 0);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  .inlineLink{
+    text-decoration: none;
+    color: #d61010;
+}
+a:hover.inlineLink{
+    text-decoration: underline;
+    color: #941414;
+}
+.potrebnaReg{
+    width:60%;
+    min-height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f102021c;
+    padding: 30px;
+    border-radius: 200px;
+    border: 1px dotted #ffc6c691;
+}
+
+  /*--------------prijava.php-------------------*/
+  .formPrijava{
+    margin: 40px 0;
+    width:100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formPrijava form{
+    width:60%;
+    min-height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f102021c;
+    padding: 30px;
+    border-radius: 200px;
+    border: 1px dotted #ffc6c691;
+}
+
+.userDiv{
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.inputStylePrijava{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+.inputStylePrijava>span{
+    width:60%;
+}
+
+.inputStylePrijava>input{
+    width:60%;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    border:1px solid #77777752;
+}
+
+.butonPrijava{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.butonPrijava button{
+        width: 60%;
+        min-height: 30px;
+        background-color: #c21717;
+        border: #e65757;
+        color:#ffffff;
+        border-radius: 5px;
+    }
+    .butonPrijava button:hover{
+        background-color: #941414;
+    }
+
+/*media for all docs*/
+@media(max-width:950px) and (min-width:787px){
+    .container{
+        flex-direction: column;
+    }
+    .right{
+        margin: 0;
+        align-items: flex-start;
+        min-height: fit-content;
+    }
+    .content{
+        min-width:100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+
+    /*index*/
+    .art{
+        width:50%;
+    }
+
+    /*clanak*/
+    .artTitle{
+        flex-direction: column;
+    }
+
+    .artTitle h1{
+        width:100%;
+        font-size: 20px;
+    }
+    
+    .artTitle h3{
+        width:100%;
+        display: inline-flex;
+        justify-content: center;
+        align-self: center;
+        font-size: 9px;
+    }
+    .description{
+        font-size: 14px;
+        padding: 10px 0 15px 0;
+    }
+    
+    .articleText{
+        padding: 15px 0;
+        font-size: 12px;
+    }
+
+    /*kategorija.php*/
+    .redLine{
+        width: 96%;
+    }
+
+    /*administracija.php*/
+
+    .articleDiv{
+        width:100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-bottom: none;
+    }
+
+    .articlePart{
+        width:100%;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        border-bottom:1px solid #99999985 ;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .buttonDivAdmin{
+        width:50%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .buttonDivAdmin button{
+        margin-left: 10px;
+    }
+    .formClass{
+        border-top: none;
+    }
+    
+    
+}
+
+@media(max-width:786px){
+
+    .container{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+    }
+    .right{
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: fit-content;
+        width:100%;
+    }
+    .content{
+        min-width:100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content li{
+        margin-top: 3px;
+        border:1px rgba(231, 230, 230, 0.37) solid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .content li:hover{
+        background-color: #d1cecebd;
+        border-radius: 12px;
+    }
+    .content li:hover > a{
+        color:#d61010;
+    }
+
+    .content li > a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 17px;
+    }
+
+    footer{
+        font-size: 9px;
+    }
+
+    /*index.php*/
+    .art{
+        width:100%;
+        border-bottom: 1px rgba(211, 211, 211, 0.644) solid;
+        margin-bottom: 15px;
+        padding-right: 0px;
+    }
+
+    .story{
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*clanak.php*/
+    .artTitle{
+        flex-direction: column;
+    }
+
+    .artTitle h1{
+        width:100%;
+        font-size: 18px;
+    }
+    
+    .artTitle h3{
+        width:100%;
+        display: inline-flex;
+        justify-content: center;
+        align-self: center;
+        font-size: 9px;
+    }
+    .description{
+        font-size: 12px;
+        padding: 10px 0 15px 0;
+    }
+    
+    .articleText{
+        padding: 15px 0;
+        font-size: 10px;
+    }
+
+    /*kategorija.php*/
+    .redLine{
+        width: 100%;
+    }
+
+    /*administracija.php*/
+
+    .articleDiv{
+        width:100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-bottom: none;
+    }
+
+    .articlePart{
+        width:100%;
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        border-bottom:1px solid #99999985 ;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .buttonDivAdmin{
+        width:25%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .buttonDivAdmin button{
+        margin-left: 10px;
+    }
+    .formClass{
+        border-top: none;
+    }
+}
+
